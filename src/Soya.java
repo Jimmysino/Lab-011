@@ -6,8 +6,8 @@ public class Soya extends  Complemento{
     }
 
     @Override
-    public String getDesciption() {
-        return cafe.getDescription()+"Soya";
+    public String getDescripcion() {
+        return cafe.getDescripcion()+", Soya";
     }
     public double costo(){
         return cafe.costo()+0.15;

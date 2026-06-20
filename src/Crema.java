@@ -6,8 +6,8 @@ public class Crema extends Complemento{
     }
 
     @Override
-    public String getDesciption() {
-        return cafe.getDescription()+"Crema";
+    public String getDescripcion() {
+        return cafe.getDescripcion()+", Crema";
     }
     public double costo(){
         return cafe.costo()+0.10;

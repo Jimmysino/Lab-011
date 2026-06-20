@@ -1,6 +1,6 @@
 public class Descafeinado extends Bebida{
     public Descafeinado() {
-        description="Descafeinado";
+        descripcion="Descafeinado";
     }
 
     @Override

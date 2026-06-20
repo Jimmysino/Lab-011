@@ -1,6 +1,6 @@
 public class Expreso extends Bebida{
     public Expreso() {
-        description="Expreso";
+        descripcion="Expreso";
     }
 
     @Override

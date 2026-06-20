@@ -1,9 +1,9 @@
 public abstract class Bebida {
-    String description="Bebida desconocida";
+    String descripcion="Bebida desconocida";
 
     public abstract double costo();
 
-    public String getDescription() {
-        return description;
+    public String getDescripcion() {
+        return descripcion;
     }
 }

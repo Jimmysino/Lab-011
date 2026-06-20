@@ -6,8 +6,8 @@ public class Moca extends Complemento{
     }
 
     @Override
-    public String getDesciption() {
-        return cafe.getDescription()+"Moca";
+    public String getDescripcion() {
+        return cafe.getDescripcion()+", Moca";
     }
     public double costo(){
         return cafe.costo()+0.20;

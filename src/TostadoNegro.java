@@ -2,7 +2,7 @@ public class TostadoNegro extends Bebida {
 
 
     public TostadoNegro() {
-        description="Tostado Negro";
+        descripcion="Tostado Negro";
     }
 
     @Override
