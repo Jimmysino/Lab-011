@@ -6,8 +6,8 @@ public class Leche extends Complemento{
     }
 
     @Override
-    public String getDesciption() {
-        return cafe.getDescription()+"Leche";
+    public String getDescripcion() {
+        return cafe.getDescripcion()+", Leche";
     }
     public double costo(){
         return 0.10+cafe.costo();
