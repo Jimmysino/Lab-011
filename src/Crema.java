@@ -1,8 +1,13 @@
+import java.util.HashMap;
+
 public class Crema extends Complemento{
-    Bebida cafe;
+    private HashMap<String, Double> precios = new HashMap<>();
 
     public Crema(Bebida cafe) {
         this.cafe = cafe;
+        precios.put("N", 0.10);
+        precios.put("M", 0.15);
+        precios.put("G", 0.20);
     }
 
     @Override
@@ -10,6 +15,6 @@ public class Crema extends Complemento{
         return cafe.getDescripcion()+", Crema";
     }
     public double costo(){
-        return cafe.costo()+0.10;
+        return cafe.costo() + precios.getOrDefault(getTamano(), 0.10);
     }
 }
